@@ -14,7 +14,7 @@ table_name = os.environ.get('TABLE_NAME', 'usuarios')
 # Configuración de S3
 ficheroUpload = "data_exportada.csv"
 # Reemplaza con tu nombre de bucket real si no lo pasas como variable
-nombreBucket = os.environ.get('S3_BUCKET', 'gcr-output-01')
+nombreBucket = os.environ.get('S3_BUCKET', 'san-2026')
 
 print("Conectando a la base de datos MySQL local en Docker...")
 try:
